@@ -1,0 +1,41 @@
+body {
+    padding: 20px;
+    background-color: #444;
+}
+
+#gridContainer {
+    padding-bottom: 10px;
+}
+
+table {
+    background-color: #8190d5;
+    border-spacing: 0;
+}
+
+td {
+    border: 1px solid #F1F5DA;
+    width: 15px;
+    height: 15px;
+}
+
+span {
+    color: #222;
+}
+
+#start{
+    padding: .75em;
+    background: #14901a;
+}
+#stop{
+    padding: .75em;
+    background: #901418;
+    color: #FFF;
+}
+
+td.dead {
+    background-color: transparent;
+}
+
+td.live {
+    background-color: #CC4774;
+}
